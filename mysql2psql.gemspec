@@ -52,9 +52,9 @@ Gem::Specification.new do |s|
     "test/units/config_test.rb",
     "test/units/postgres_file_writer_test.rb"
   ]
-  s.homepage = %q{https://github.com/tardate/mysql2postgres}
+  s.homepage = %q{https://github.com/actionsprout/mysql2postgres}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
+  s.rubygems_version = %q{1.6.3}
   s.summary = %q{Tool for converting mysql database to postgresql}
   s.test_files = [
     "test/integration/convert_to_db_test.rb",
@@ -97,7 +97,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rake>, ["~> 0.9.2.2"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_runtime_dependency(%q<mysql>, ["= 2.8.1"])
-      s.add_runtime_dependency(%q<pg>, ["~> 0.11.0"])
+      s.add_runtime_dependency(%q<pg>, ["~> 0.14.0"])
       s.add_development_dependency(%q<test-unit>, [">= 2.1.1"])
       s.add_development_dependency(%q<rake>, ["~> 0.9.2.2"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
@@ -125,7 +125,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rake>, ["~> 0.9.2.2"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<mysql>, ["= 2.8.1"])
-      s.add_dependency(%q<pg>, ["~> 0.11.0"])
+      s.add_dependency(%q<pg>, ["~> 0.14.0"])
       s.add_dependency(%q<test-unit>, [">= 2.1.1"])
       s.add_dependency(%q<rake>, ["~> 0.9.2.2"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
@@ -154,7 +154,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>, ["~> 0.9.2.2"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<mysql>, ["= 2.8.1"])
-    s.add_dependency(%q<pg>, ["~> 0.11.0"])
+    s.add_dependency(%q<pg>, ["~> 0.14.0"])
     s.add_dependency(%q<test-unit>, [">= 2.1.1"])
     s.add_dependency(%q<rake>, ["~> 0.9.2.2"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
